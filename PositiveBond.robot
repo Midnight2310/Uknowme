@@ -38,7 +38,7 @@ Signup
     Click Element    xpath=//button[contains(@class, 'swal2-confirm')]
     [Teardown]    Close Browser
 
-LogIn
+LogIN
     Open Browser    ${URL}    ${BROWSER}
     Set Selenium Speed    ${DELAY}
     Maximize Browser Window
@@ -79,7 +79,7 @@ TCI001-การสมัครสมาชิก
 
 
 TCI003-โปรไฟล์
-    LogIn
+    LogIN
     Homepage
     Profile
     

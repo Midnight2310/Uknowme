@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
+import React from 'react';
 import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSyncAlt, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import CheckName from './checkName';
 import Sidebar from '../../Components/Sidebar';
 import HeaderAdmin from '../dashboard/HeadAdmin';
-import { useNavigate } from 'react-router-dom';
+
 import { getToken } from '../../hooks/tokenStorage';
 
 interface Course {

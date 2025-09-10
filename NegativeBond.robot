@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 Library    OperatingSystem
 Library    DateTime
-Suite Setup    LogIn
+Suite Setup    LogIN
 Suite Teardown    Close Browser
 
 *** Variables ***
@@ -55,7 +55,7 @@ SignupIncomplete
     Wait Until Element Is Visible    id=submit-signup-btn
     Click Element    id=submit-signup-btn
 
-LogIn
+LogIN
     Open Browser    ${URL}    ${BROWSER}
     Set Selenium Speed    ${DELAY}
     Maximize Browser Window
@@ -126,7 +126,7 @@ TCI003-เข้าสู่ระบบของผูู้ค้าตรา�
     LoginI
 
 TCI004-แก้ไขข้อมูลโปรไฟล์
-    LogIn
+    LogIN
     Homepage
     Profile
 

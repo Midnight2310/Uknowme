@@ -17,7 +17,7 @@ Capture Step Screenshot
     ${timestamp}=    Get Current Date    result_format=%Y%m%d_%H%M%S
     Capture Page Screenshot    ${SCREENSHOT_DIR}/${step_name}_${timestamp}.png
 
-SignIn-Privatekey
+SignIN-Privatekey
     Open Browser    ${URL}    ${BROWSER}
     Set Selenium Speed    ${DELAY}
     Maximize Browser Window
@@ -64,5 +64,5 @@ SignIn-Privatekey
 
 *** Test Cases ***
 TCI01-เข้าสู่ระบบผู้ดูแลระบบขั้นสูงกรณีไม่กรอก Privatekay
-    SignIn-Privatekey
+    SignIN-Privatekey
 

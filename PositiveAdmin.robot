@@ -17,7 +17,7 @@ Capture Step Screenshot
     ${timestamp}=    Get Current Date    result_format=%Y%m%d_%H%M%S
     Capture Page Screenshot    ${SCREENSHOT_DIR}/${step_name}_${timestamp}.png
 
-Login Admin
+LogiN Admin
     Open Browser    ${URL}    ${BROWSER}
     Set Selenium Speed    ${DELAY}
     Maximize Browser Window
